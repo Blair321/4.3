@@ -4,11 +4,14 @@ console.log('***** Cart Functions *****');
 let basket = []
 
 
-function addItem(item) {    
+function addItem(item) {
+    
 }
 
 
-function listItem() {   
+
+
+function listItems() {   
 }
 
 function empty() {   
