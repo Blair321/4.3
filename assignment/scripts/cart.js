@@ -4,15 +4,23 @@ console.log('***** Cart Functions *****');
 let basket = []
 
 
-function addItem(item) {
+function addItem(item) { 
     
+basket.push(item);
+
+
+return true;
 }
 
+console.log(addItem('Apple'));
 
 
 
 function listItems() {   
 }
+
+
+
 
 function empty() {   
 }
