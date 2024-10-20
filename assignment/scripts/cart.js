@@ -15,14 +15,25 @@ return true;
 console.log(addItem('Apple'));
 
 
-
-function listItems() {   
+function listItems() {
+    for (let index = 0; index < basket.length; index++){
+    const item = basket[index];
+    console.log(item);
+    }
 }
+console.log(listItems());
+
+
+
+
 
 
 
 
 function empty() {   
+    while(basket.length > 0 ){
+        basket.pop();
+    }
 }
 
 
